@@ -1,0 +1,241 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.35rem 0 0.35rem 0;
+  height: 20px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart {
+  padding: 0 10px 0 10px;
+}
+
+h1{
+  font-family: "verdana";
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h2{
+  font-family: "verdana";
+  font-size: 30px;
+  font-weight: 100;
+}
+
+h3{
+  font-family: "verdana";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+li{
+  font-family: "verdana";
+}
+
+span{
+  font-family: "verdana";
+}
+
+p{
+  font-family: "verdana";
+}
+
+/* Header*/
+
+.header {
+  color: white;
+  background-color: rgb(32, 101, 136);
+  background-image: url("images/city-scape.svg");
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+.header-search{
+  display: grid;
+  grid-template-columns: 15% 60% 5% 20%;
+  grid-template-rows: 50%;
+  padding-top: 10px;
+}
+
+.search-icon {
+  padding-top: 0.5em;
+}
+
+.header-search button {
+  background-color: rgb(31, 82, 111);
+}
+
+.header-search li {
+  float: right;
+  list-style-type: none;
+}
+
+.header-search input {
+  background-color: rgb(31, 82, 111);
+}
+
+.header-sign {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.header .header-input {
+  padding: 1em;
+  border: 1px solid rgb(104, 135, 153);  
+}
+
+.header .btn-search{
+  padding-bottom: 1.5em;
+  margin: 0;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgb(104, 135, 153);
+  border-left: none;
+}
+
+.header-sign button {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  padding: .8em 2em;
+  border-radius: 2em;
+  margin: 10px 0 8px 0;
+  border-color: rgb(240, 146, 51);
+}
+
+.header-search a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-logo {
+  padding: 0 25px;
+  float: left;
+}
+
+.header-bear img{
+  padding: 0 30px 0 10px;
+}
+
+/* Collaboration*/
+
+.collaboration {
+  color: white;
+  background-color: rgb(39, 53, 71);
+}
+
+.collaboration-container {
+  padding: 5em;
+  margin: 0 auto;
+}
+
+.collaboration-heading {
+  display: inline-block;
+  float: right;
+  padding-left: 0;
+}
+
+.collaboration button {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  padding: .8em 2em;
+  border-radius: 2em;
+  margin: 10px 0 0 0;
+  border-color: rgb(203, 56, 55);
+}
+
+.collaboration li{
+  padding: .5em;
+}
+
+.collaboration a {
+  text-decoration: none;
+  color: white;
+}
+
+/* npm-section */
+.npm {
+  display: grid;
+  background-color: rgb(31, 82, 111);
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  resize: both;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  padding: 15em;
+}
+
+.npm button {
+  color: white;
+  background: rgb(49, 68, 88);
+  padding: .8em 2em;
+  border-radius: 2em;
+  margin: 10px 0 8px 0;
+  border-color: rgb(49, 68, 88);
+}
+
+.npm-text {
+  position: absolute;
+  margin: 1.5em 0 0 8em;
+  padding: 3em;
+}
+
+/* section thirds */
+
+.section-thirds section {
+  background-color: #fff;
+}
+
+.section-third-items a {
+  color: rgb(208, 74, 73);
+}
+
+.section-third-items p {
+  color: rgb(135, 145, 156);
+}
+
+.section-thirds h3 {
+  color: rgb(83, 88, 98);
+}
+
+.heading-text {
+  padding: 10px;
+  margin: 0 auto;
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.section-third-items {
+  float: right;
+  width: 75em;
+  padding: 10px;
+  display: inline-grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+}
